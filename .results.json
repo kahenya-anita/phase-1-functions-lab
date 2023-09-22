@@ -5,8 +5,8 @@
     "passes": 13,
     "pending": 0,
     "failures": 0,
-    "start": "2023-09-22T14:01:18.452Z",
-    "end": "2023-09-22T14:01:18.901Z",
+    "start": "2023-09-22T14:04:33.995Z",
+    "end": "2023-09-22T14:04:34.444Z",
     "duration": 449
   },
   "tests": [
@@ -34,7 +34,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -129,7 +129,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },

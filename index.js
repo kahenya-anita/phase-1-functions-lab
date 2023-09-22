@@ -11,12 +11,17 @@ function distanceFromHqInFeet(blocks) {
   return distanceFromHqInBlocks(blocks) * 264;
 }
 
-function distanceTravelledInFeet(start, end) {
-  if (start < end) {
-    return (end - start) * 264;
-  } else {
-    return (start - end) * 264;
-  }
+// function distanceTravelledInFeet(start, end) {
+//   if (start < end) {
+//     return (end - start) * 264;
+//   } else {
+//     return (start - end) * 264;
+//   }
+// }
+function distanceTravelledInFeet(start, destination){
+    const dstInBlock = Math.abs(start- destination)
+    const distanceFromHqInFeet = dstInBlock *264
+    return distanceFromHqInFeet
 }
 
 function calculatesFarePrice(start, destination) {
